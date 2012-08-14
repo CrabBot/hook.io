@@ -1,8 +1,5 @@
 #! /usr/bin/env node
-var hookio = require('../../lib/hookio'),
-    path = require('path');
-
-var public = path.resolve(__dirname, 'public');
+var hookio = require('../../lib/hookio');
 
 var client = hookio.createWebClient({
   name: 'hook.io-webclient'
